@@ -5,6 +5,10 @@ $(document).ready(function(){
     $('.modal').modal();
     $(".modal").width($(".modal").width());
     $(".modal").height($(".modal").height());
+    $('select').formSelect();
+    $('.slider-promos').slider({
+      height: 550
+    });
 
     $("#logo-nav").addClass("hide");
 
@@ -48,6 +52,13 @@ $("#btn-hero").click(function(e) {
     scrollTop: $("#quienes-somos").offset().top-100
   }, 500);
 })
+$("#btn-hero-mob").click(function(e) {
+  e.preventDefault();
+  // $("#quienes-somos").animatedScroll({easing: "easeOutExpo"});
+  $('html, body').animate({
+    scrollTop: $("#quienes-somos").offset().top-100
+  }, 500);
+})
 
 $("#btn-nuestros-trabajos").hover(function(e) {
   $("#img-nuestros-trabajos").addClass("jqhover");
@@ -55,3 +66,10 @@ $("#btn-nuestros-trabajos").hover(function(e) {
 $("#btn-nuestros-trabajos").mouseout(function(e) {
   $("#img-nuestros-trabajos").removeClass("jqhover");
 })
+$("#btn-nuestros-trabajos-2").hover(function(e) {
+  $("#img-nuestros-trabajos-2").addClass("jqhover");
+})
+$("#btn-nuestros-trabajos-2").mouseout(function(e) {
+  $("#img-nuestros-trabajos-2").removeClass("jqhover");
+})
+

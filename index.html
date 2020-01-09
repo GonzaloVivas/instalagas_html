@@ -10,7 +10,11 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <!-- <link href="css/fa-brands.css" type="text/css" rel="stylesheet"/> -->
   <link href="css/all.min.css" type="text/css" rel="stylesheet"/>
-  <link rel="icon" type="image/png" href="favicon_1.png" />
+  <link rel="icon" href="favicon-16.png" sizes="16x16">
+  <link rel="icon" href="favicon-32.png" sizes="32x32">
+  <link rel="icon" href="favicon-48.png" sizes="48x48">
+  <link rel="icon" href="favicon-64.png" sizes="64x64">
+  <link rel="icon" href="favicon-128.png" sizes="128x128">
   <meta name="theme-color" content="#f48125">
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
@@ -18,6 +22,7 @@
 <body>
 
   <div class="hide" id="nav-container">
+    
     <div class="navbar-fixed">
       <nav class="colorBG" id="nav">
           <div class="nav-wrapper">
@@ -25,7 +30,7 @@
           <a href="#" data-target="mobile-demo" class="sidenav-trigger right black-text"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
               <li><a href="../">Inicio</a></li>
-              <li><a href="#">Quiénes Somos</a></li>
+              <!-- <li><a href="#">Quiénes Somos</a></li> -->
               <li><a class="dropdown-trigger" href="#!" data-target="dropdown-inst-gas-w">Instalaciones de Gas<i class="material-icons right">arrow_drop_down</i></a></li>
               <ul id="dropdown-inst-gas-w" class="dropdown-content">
                   <li><a href="#!">Comerciales / Industriales</a></li>
@@ -47,115 +52,26 @@
                   <li><a href="#!">Aire Acondicionado y Calefacción</a></li>
                   <li><a href="#!">Energías Renovables</a></li>
               </ul>
+              <li><a href="#">Galería de Trabajos</a></li>
               <li><a href="#">Contacto</a></li>
               <div class="header-nav-social">
                   <li><a target="_blank" href="" class="nav-social-link first"><i class="fab fa-facebook-f"></i></a></li>
                   <li><a target="_blank" href="" class="nav-social-link"><i class="fab fa-instagram"></i></a></li>
-                  <li><a target="_blank" class="nav-social-link last" href=""><i class="fab fa-youtube"></i></i></a></li>                        
+                  <li><a target="_blank" href="" class="nav-social-link-transp ml"><img src="images/ml-logo.png" alt=""></a></li>
               </div>
           </ul>
           </div>
       </nav>
-    </div>
-    
-    <ul class="sidenav" id="mobile-demo">
-        <li><a href="../">Inicio</a></li>
-        <li><a href="#">Quiénes Somos</a></li>
-        <ul class="collapsible">
-            <li>
-                <div class="collapsible-header drop-nav-mob">Instalaciones de Gas<i class="material-icons right">arrow_drop_down</i></div>
-                <div class="collapsible-body">
-                    <ul>
-                        <li><a href="#!" class="drop-nav-mob-items">Comerciales / Industriales</a></li>
-                        <li><a href="#!" class="drop-nav-mob-items">Domésticas / Consorcios</a></li>
-                        <li><a href="#!" class="drop-nav-mob-items">Instalaciones de Combustión</a></li>
-                        <li><a href="#!" class="drop-nav-mob-items">Reparación y Servicio Técnico</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li>
-                <div class="collapsible-header drop-nav-mob">Certificaciones<i class="material-icons right">arrow_drop_down</i></div>
-                <div class="collapsible-body">
-                    <ul>
-                        <li><a href="#!" class="drop-nav-mob-items">Calderas</a></li>
-                        <li><a href="#!" class="drop-nav-mob-items">Termotanques</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li>
-                <div class="collapsible-header drop-nav-mob">Otros Servicios<i class="material-icons right">arrow_drop_down</i></div>
-                <div class="collapsible-body">
-                    <ul>
-                        <li><a href="#!" class="drop-nav-mob-items">Instalaciones Sanitarias y Plomería</a></li>
-                        <li><a href="#!" class="drop-nav-mob-items">Trabajos en Altura</a></li>
-                        <li><a href="#!" class="drop-nav-mob-items">Electricidad</a></li>
-                        <li><a href="#!" class="drop-nav-mob-items">Remodelaciones</a></li>
-                        <li><a href="#!" class="drop-nav-mob-items">Aire Acondicionado y Calefacción</a></li>
-                        <li><a href="#!" class="drop-nav-mob-items">Energías Renovables</a></li>
-                    </ul>
-                </div>
-            </li>
-        </ul>
-        <li><a href="#">Contacto</a></li>
-        <div class="sidenav-social">
+  </div>
+  
+  <ul class="sidenav" id="mobile-demo">
+      <div class="sidenav-social">
           <a target="_blank" href="" class=""><i class="fab fa-facebook-f"></i></a>
           <a target="_blank" href="" class=""><i class="fab fa-instagram"></i></a>
-          <a target="_blank" class="" href=""><i class="fab fa-youtube"></i></a>              
-        </div>
-    </ul>
-  </div>
-
-  <main>
-    
-    <div class="hero" id="hero">
-        <nav class="transparentBG">
-          <div class="nav-wrapper">
-            <a href="#" data-target="mobile-demo-2" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-              <li><a href="../">Inicio</a></li>
-              <li><a href="#">Quiénes Somos</a></li>
-              <li><a class="dropdown-trigger" href="#!" data-target="dropdown-inst-gas">Instalaciones de Gas<i class="material-icons right">arrow_drop_down</i></a></li>
-              <ul id="dropdown-inst-gas" class="dropdown-content">
-                  <li><a href="#!">Comerciales / Industriales</a></li>
-                  <li><a href="#!">Domésticas / Consorcios</a></li>
-                  <li><a href="#!">Instalaciones de Combustión</a></li>
-                  <li><a href="#!">Reparación y Servicio Técnico</a></li>
-              </ul>
-              <li><a class="dropdown-trigger" href="#!" data-target="dropdown-cert">Certificaciones<i class="material-icons right">arrow_drop_down</i></a></li>
-              <ul id="dropdown-cert" class="dropdown-content">
-                  <li><a href="#!">Calderas</a></li>
-                  <li><a href="#!">Termotanques</a></li>
-              </ul>
-              <li><a class="dropdown-trigger" href="#!" data-target="dropdown-otros">Otros Servicios<i class="material-icons right">arrow_drop_down</i></a></li>
-              <ul id="dropdown-otros" class="dropdown-content">
-                  <li><a href="#!">Instalaciones Sanitarias y Plomería</a></li>
-                  <li><a href="#!">Trabajos en Altura</a></li>
-                  <li><a href="#!">Electricidad</a></li>
-                  <li><a href="#!">Remodelaciones</a></li>
-                  <li><a href="#!">Aire Acondicionado y Calefacción</a></li>
-                  <li><a href="#!">Energías Renovables</a></li>
-              </ul>
-              <li><a href="#">Contacto</a></li>
-              <div class="header-nav-social">
-                <li><a target="_blank" href="" class="nav-social-link first"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a target="_blank" href="" class="nav-social-link"><i class="fab fa-instagram"></i></a></li>
-                <li><a target="_blank" class="nav-social-link last" href=""><i class="fab fa-youtube"></i></a></li>              
-              </div>
-            </ul>
-          </div>
-          
-        </nav>
-
-      <div class="hero-content">
-        <img src="images/nav-logo.png" alt="Logo de Instalagas" class="hero-logo">
-        <h3 class="center hero-text">Especialistas en proyección, cálculo, ejecución y habilitación de instalaciones de gas.</h3>
-        <a href="" id="btn-hero" class="btn btn-large hero-btn btn-outlined">Conocenos</a>
+          <a target="_blank" href="" class="sidenav-social-link ml"><img src="images/ml-logo.png" alt=""></a>
       </div>
-    </div>
-
-    <ul class="sidenav" id="mobile-demo-2">
       <li><a href="../">Inicio</a></li>
-      <li><a href="#">Quiénes Somos</a></li>
+      <!-- <li><a href="#">Quiénes Somos</a></li> -->
       <ul class="collapsible">
           <li>
               <div class="collapsible-header drop-nav-mob">Instalaciones de Gas<i class="material-icons right">arrow_drop_down</i></div>
@@ -191,13 +107,114 @@
               </div>
           </li>
       </ul>
+      <li><a href="#">Galería de Trabajos</a></li>
       <li><a href="#">Contacto</a></li>
-      
+  </ul>
+
+  </div>
+
+  <main>
+    
+    <div class="hero" id="hero">
+        <nav class="transparentBG">
+          <div class="nav-wrapper">
+            <a href="#" data-target="mobile-demo-2" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="../">Inicio</a></li>
+              <!-- <li><a href="#">Quiénes Somos</a></li> -->
+              <li><a class="dropdown-trigger" href="#!" data-target="dropdown-inst-gas">Instalaciones de Gas<i class="material-icons right">arrow_drop_down</i></a></li>
+              <ul id="dropdown-inst-gas" class="dropdown-content">
+                  <li><a href="#!">Comerciales / Industriales</a></li>
+                  <li><a href="#!">Domésticas / Consorcios</a></li>
+                  <li><a href="#!">Instalaciones de Combustión</a></li>
+                  <li><a href="#!">Reparación y Servicio Técnico</a></li>
+              </ul>
+              <li><a class="dropdown-trigger" href="#!" data-target="dropdown-cert">Certificaciones<i class="material-icons right">arrow_drop_down</i></a></li>
+              <ul id="dropdown-cert" class="dropdown-content">
+                  <li><a href="#!">Calderas</a></li>
+                  <li><a href="#!">Termotanques</a></li>
+              </ul>
+              <li><a class="dropdown-trigger" href="#!" data-target="dropdown-otros">Otros Servicios<i class="material-icons right">arrow_drop_down</i></a></li>
+              <ul id="dropdown-otros" class="dropdown-content">
+                  <li><a href="#!">Instalaciones Sanitarias y Plomería</a></li>
+                  <li><a href="#!">Trabajos en Altura</a></li>
+                  <li><a href="#!">Electricidad</a></li>
+                  <li><a href="#!">Remodelaciones</a></li>
+                  <li><a href="#!">Aire Acondicionado y Calefacción</a></li>
+                  <li><a href="#!">Energías Renovables</a></li>
+              </ul>
+              <li><a href="#">Galería de Trabajos</a></li>
+              <li><a href="#">Contacto</a></li>
+              <div class="header-nav-social">
+                <li><a target="_blank" href="" class="nav-social-link first"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a target="_blank" href="" class="nav-social-link"><i class="fab fa-instagram"></i></a></li>
+                <!-- <li><a target="_blank" class="nav-social-link last" href=""><i class="fab fa-youtube"></i></a></li> -->
+                <li><a target="_blank" href="" class="nav-social-link ml"><img src="images/ml-logo.png" alt=""></a></li>      
+              </div>
+            </ul>
+          </div>
+          
+        </nav>
+
+      <div class="hero-content">
+        <img src="images/nav-logo.png" alt="Logo de Instalagas" class="hero-logo">
+        <h3 class="center hero-text">Especialistas en Instalaciones de Gas y Certificación de Calderas y Termotanques.</h3>
+        <h3 class="center hero-text mt-64 hide-on-small-only"><i class="text-35 material-icons">call</i>&nbsp;+54 9 11 6689 3766</h3>
+        <a href="tel:+54 9 11 6689 3766" class="hide-on-med-and-up btn btn-large hero-btn btn-outlined"><i class="material-icons left">call</i>Llamanos</a>
+        <a href="" id="btn-hero" class="hide-on-small-only btn btn-large hero-btn btn-outlined">Conocenos</a>
+        <div class="hero-go-bottom hide-on-med-and-up">
+          <a id="btn-hero-mob"><span></span><span></span><span></span></a>
+        </div>
+      </div>
+    </div>
+
+    <ul class="sidenav" id="mobile-demo-2">
       <div class="sidenav-social">
         <a target="_blank" href="" class=""><i class="fab fa-facebook-f"></i></a>
         <a target="_blank" href="" class=""><i class="fab fa-instagram"></i></a>
-        <a target="_blank" class="" href=""><i class="fab fa-youtube"></i></a>              
+        <a target="_blank" href="" class="sidenav-social-link ml"><img src="images/ml-logo.png" alt=""></a>
       </div>
+      <li><a href="../">Inicio</a></li>
+      <!-- <li><a href="#">Quiénes Somos</a></li> -->
+      <ul class="collapsible">
+          <li>
+              <div class="collapsible-header drop-nav-mob">Instalaciones de Gas<i class="material-icons right">arrow_drop_down</i></div>
+              <div class="collapsible-body">
+                  <ul>
+                      <li><a href="#!" class="drop-nav-mob-items">Comerciales / Industriales</a></li>
+                      <li><a href="#!" class="drop-nav-mob-items">Domésticas / Consorcios</a></li>
+                      <li><a href="#!" class="drop-nav-mob-items">Instalaciones de Combustión</a></li>
+                      <li><a href="#!" class="drop-nav-mob-items">Reparación y Servicio Técnico</a></li>
+                  </ul>
+              </div>
+          </li>
+          <li>
+              <div class="collapsible-header drop-nav-mob">Certificaciones<i class="material-icons right">arrow_drop_down</i></div>
+              <div class="collapsible-body">
+                  <ul>
+                      <li><a href="#!" class="drop-nav-mob-items">Calderas</a></li>
+                      <li><a href="#!" class="drop-nav-mob-items">Termotanques</a></li>
+                  </ul>
+              </div>
+          </li>
+          <li>
+              <div class="collapsible-header drop-nav-mob">Otros Servicios<i class="material-icons right">arrow_drop_down</i></div>
+              <div class="collapsible-body">
+                  <ul>
+                      <li><a href="#!" class="drop-nav-mob-items">Instalaciones Sanitarias y Plomería</a></li>
+                      <li><a href="#!" class="drop-nav-mob-items">Trabajos en Altura</a></li>
+                      <li><a href="#!" class="drop-nav-mob-items">Electricidad</a></li>
+                      <li><a href="#!" class="drop-nav-mob-items">Remodelaciones</a></li>
+                      <li><a href="#!" class="drop-nav-mob-items">Aire Acondicionado y Calefacción</a></li>
+                      <li><a href="#!" class="drop-nav-mob-items">Energías Renovables</a></li>
+                  </ul>
+              </div>
+          </li>
+      </ul>
+      <li><a href="#">Galería de Trabajos</a></li>
+      <li><a href="#">Contacto</a></li>
+      
+      
     </ul>
 
     <section class="container quienes-somos" id="quienes-somos">
@@ -221,7 +238,7 @@
     
     <!-- <hr> -->
 
-    <section>.
+    <!-- <section>.
       <div class="container">
         <h3 class="ul-title">Nuestros Servicios</h3>
       </div>
@@ -270,9 +287,65 @@
           <p>ENERGIAS RENOVABLES</p>
         </div>
       </div>
-    </section>
+    </section> -->
+
+
+
+
+  <section class="container">.
+
+    <h3 class="ul-title">Nuestros Servicios</h3>   
+
+    <div class="row">
+      <div class="col s12 m6 servicio-container-2">
+        <figure><img src="images/serv-inst-gas.jpg" alt=""></figure>
+        <p>INSTALACIONES DE GAS</p>
+      </div>
+
+      <div class="col s12 m6 servicio-container-2">
+        <figure><img src="images/serv-cert.jpg" alt=""></figure>
+        <p>CERTIFICACIONES</p>
+      </div>
+
+      <div class="col s12 m4 servicio-container-2">
+        <figure><img src="images/plomeria.png" alt=""></figure>
+        <p>INSTALACIONES SANITARIAS Y PLOMERIA</p>
+      </div>
+
+      <div class="col s12 m4 servicio-container-2">
+        <figure><img src="images/altura.jpg" alt=""></figure>
+        <p>TRABAJOS EN ALTURA</p>
+      </div>
+
+      <div class="col s12 m4 servicio-container-2">
+        <figure><img src="images/electricidad.png" alt=""></figure>
+        <p>ELECTRICIDAD</p>
+      </div>
+
+      <div class="col s12 m4 servicio-container-2">
+        <figure><img src="images/remodelaciones.jpg" alt=""></figure>
+        <p>REMODELACIONES</p>
+      </div>
+
+      <div class="col s12 m4 servicio-container-2">
+        <figure><img src="images/climatizacion.png" alt=""></figure>
+        <p>AIRE ACONDICIONADO Y CALEFACCION</p>
+      </div>
+
+      <div class="col s12 m4 servicio-container-2">
+        <figure><img src="images/renovables.jpg" alt=""></figure>
+        <p>ENERGIAS RENOVABLES</p>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
     
-    <section class="container mt-80">
+    <!-- <section class="container mt-80">
       <h3 class="ul-title">Nuestro Equipo</h3>
       <div class="equipo-container">
         <div class="equipo">
@@ -295,13 +368,125 @@
           <img src="images/nuestros-trabajos-index.jpg" alt="" id="img-nuestros-trabajos">
         </div>
       </div>
-    </section>
+    </section> -->
+
+
 
     <section class="container mt-80">
-        <h3 class="ul-title">Promociones</h3>
-        <div class="row">
+      <h3 class="ul-title">Nuestro Equipo</h3>
+      <p class="text-20 mt-0">Tenemos un equipo especializado para cada uno de tus proyectos:</p>
+      <div class="row lis-prof-container">
+          <div class="col s12 m6">
+            <ul class="lis-prof text-15">
+              <li class="list-icon">Instaladores Gasistas Matriculados de 1° Cat. Metrogas / Naturgy</li>
+              <li>Matriculados en Sistemas de Combustión Cat. A y B</li>
+              <li>Certificantes de Calderas y Termotanques</li>
+              <li>Ingeniero Mecánico</li>
+              <li>Técnicos Electromecánicos</li>
+            </ul>
+          </div>
+          <div class="col s12 m6">
+            <ul class="lis-prof text-15">
+              <li>Maestro Mayor de Obras, Profesionales en Pintura y Trabajos de Altura</li>
+              <li>Operadores de Calderas (Foguistas)</li>
+              <li>Instalador Electricista Matriculado 1° Cat.</li>
+              <li>Técnicos Matriculados en Refrigeración y Aire Acondicionado</li>
+              <li>Instaladores Certificados de Equipos de Energías Renovables</li>
+            </ul>
+          </div>
+      </div>
+          
+      <div class="nuestros-trabajos-index-2" style="width: 100%; height: 250px;">
+        <a href="" id="btn-nuestros-trabajos-2" class="btn btn-large btn-nuestros-trabajos btn-outlined">Conoce Nuestros Trabajos</a>
+        <img src="images/nuestros-trabajos-index.jpg" alt="" id="img-nuestros-trabajos-2">
+      </div>
+
+    </section>
+
+
+
+    <section class="container mt-80">
+      <h3 class="ul-title">Promociones</h3>
+
+        
+      <div class="row">
+
+          <div class="slider slider-promos">
+            <ul class="slides">
+              
+              <li class="promo inverse">
+                <img src="images/remodelaciones.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                  <div class="promo-porc">
+                    <p class="bonif">50% DE DESCUENTO</p>
+                  </div>
+                  <h5 class="promo-title">EN VISITA DE OBRA</h5>
+                  <p>CONTRATANDO CUALQUIERA DE NUESTROS SERVICIOS POR MERCADO LIBRE</p>
+                  <p class="promo-aclara">Incluye: asesoramiento profesional, presupuesto e informe técnico.</p>
+                  <p class="promo-muted">Costo de visita con descuento: $300</p>
+                  <p>Promoción válida en CABA</p>
+                  <a href="https://listado.mercadolibre.com.ar/gasista-matriculado-1ra-categoria-certificante-de-calderas_NoIndex_True" target="_blank" class="btn btn-large btn-outlined">Comprar</a>
+                </div>
+              </li>
+        
+              <li class="promo inverse">
+                <img src="images/plomeria.png"> <!-- random image -->
+                <div class="caption center-align">
+                  <div class="promo-porc">
+                    <p class="bonif">100% BONIFICADO</p>
+                  </div>
+                  <h5 class="promo-title">COTIZACIÓN PARA EMPRESAS Y CONSORCIOS​</h5>
+                  <p>SIGUIÉNDONOS EN INSTAGRAM <a href="https://www.instagram.com/instalagas_construcciones/">@INSTALAGAS_CONSTRUCCIONES</a></p>
+                  <p class="promo-aclara">Incluye: asesoramiento profesional, presupuesto e informe técnico.</p>
+                  <p>Promoción válida en CABA</p>
+                  <a href="https://www.instagram.com/instalagas_construcciones/" target="_blank" class="btn btn-large btn-outlined">Ir a Instagram</a>
+                </div>
+              </li>
+
+              <li class="promo inverse">
+                <img src="images/serv-cert.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                  <div class="promo-porc">
+                    <p class="bonif">100% BONIFICADO</p>
+                  </div>
+                  <h5 class="promo-title">1° CERTIFICACIÓN DE CALDERA Y TERMOTANQUE</h5>
+                  <p>SIGUIÉNDONOS EN INSTAGRAM <a href="https://www.instagram.com/instalagas_construcciones/">@INSTALAGAS_CONSTRUCCIONES</a></p>
+                  <p class="promo-aclara">Incluye: Informe técnico de la instalación de gas y estado de calderas + Programa de mantenimiento del sistema térmico.</p>
+                  <p class="promo-muted">Costo de visita con descuento: $300</p>
+                  <p>Promoción válida en CABA</p>
+                  <a href="https://www.instagram.com/instalagas_construcciones/" target="_blank" class="btn btn-large btn-outlined">Ir a Instagram</a>
+                </div>
+              </li>
+              
+              <li class="promo inverse">
+                <img src="images/altura.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                  <div class="promo-porc">
+                    <p class="bonif">20% de descuento</p>
+                  </div>
+                  <h5 class="promo-title">EN LA CARGA DE GAS DE AIRES ACONDICIONADOS</h5>
+                  <p>CONTRATANDO NUESTRO SERVICIO POR MERCADO LIBRE</p>
+                  <p class="promo-aclara">* El costo final queda sujeto al modelo del equipo</p>
+                  <p class="promo-muted"></p>
+                  <p>Promoción válida en CABA</p>
+                  <a href="https://listado.mercadolibre.com.ar/gasista-matriculado-1ra-categoria-certificante-de-calderas_NoIndex_True" target="_blank" class="btn btn-large btn-outlined">Comprar</a>
+                </div>
+              </li>
+
+                    
+            </ul>
+          </div>
+      </div>
+
+
+
+
+
+        <!-- <div class="row">
+
+        
           <div class="col s12 m6 l3">
-            <div class="promo">
+            <div class="promo inverse">
               <div class="promo-porc">
                 <p>50% de descuento</p>
               </div>
@@ -313,7 +498,7 @@
           </div>
 
           <div class="col s12 m6 l3">
-            <div class="promo">
+            <div class="promo inverse">
               <div class="promo-porc">
                 <p>100% BONIFICADO</p>
               </div>
@@ -333,7 +518,7 @@
           </div>
 
           <div class="col s12 m6 l3">
-            <div class="promo">
+            <div class="promo inverse">
               <div class="promo-porc">
                 <p>20% de descuento</p>
               </div>
@@ -341,9 +526,83 @@
               <a href="#modal4" class="btn btn-large promo-btn modal-trigger">Más Información</a>
             </div>
           </div>
+        </div> -->
+
+        
+        <!-- <div id="modal1" class="modal">
+          <div class="promo-porc center">
+            <p>50% de descuento</p>
+          </div>
+          <div class="center">
+            <div class="modal-content">
+              <h5 class="promo-title">EN VISITA DE OBRA</h5>
+              <p>CONTRATANDO CUALQUIERA DE NUESTROS SERVICIOS POR MERCADO LIBRE</p>
+              <p class="promo-aclara">Incluye: asesoramiento profesional, presupuesto e informe técnico.</p>
+              <p class="promo-muted">Costo de visita con descuento: $300</p>
+              <p>Promoción válida en CABA</p>
+            </div>
+            <div class="modal-footer">
+              <a href="https://listado.mercadolibre.com.ar/gasista-matriculado-1ra-categoria-certificante-de-calderas_NoIndex_True" target="_blank" class="btn btn-large modal-promo-btn">Comprar</a>
+            </div>
+          </div>
         </div>
-          
-        <div id="modal1" class="modal">
+
+        <div id="modal2" class="modal">
+          <div class="promo-porc center">
+            <p>100% BONIFICADO</p>
+          </div>
+          <div class="center">
+            <div class="modal-content">
+              <h5 class="promo-title">COTIZACIÓN PARA EMPRESAS Y CONSORCIOS​</h5>
+              <p>SIGUIÉNDONOS EN INSTAGRAM <a href="https://www.instagram.com/instalagas_construcciones/">@INSTALAGAS_CONSTRUCCIONES</a></p>
+              <p class="promo-aclara">Incluye: asesoramiento profesional, presupuesto e informe técnico.</p>
+              <p>Promoción válida en CABA</p>
+            </div>
+            <div class="modal-footer">
+              <a href="https://www.instagram.com/instalagas_construcciones/" target="_blank" class="btn btn-large modal-promo-btn">Ir a Instagram</a>
+            </div>
+          </div>
+        </div>
+        
+        <div id="modal3" class="modal">
+          <div class="promo-porc center">
+            <p>100% BONIFICADO</p>
+          </div>
+          <div class="center">
+            <div class="modal-content">
+              <h5 class="promo-title">1° CERTIFICACIÓN DE CALDERA Y TERMOTANQUE</h5>
+              <p>SIGUIÉNDONOS EN INSTAGRAM <a href="https://www.instagram.com/instalagas_construcciones/">@INSTALAGAS_CONSTRUCCIONES</a></p>
+              <p class="promo-aclara">Incluye: Informe técnico de la instalación de gas y estado de calderas + Programa de mantenimiento del sistema térmico.</p>
+              <p class="promo-muted">Costo de visita con descuento: $300</p>
+              <p>Promoción válida en CABA</p>
+            </div>
+            <div class="modal-footer">
+              <a href="https://www.instagram.com/instalagas_construcciones/" target="_blank" class="btn btn-large modal-promo-btn">Ir a Instagram</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="modal4" class="modal">
+          <div class="promo-porc center">
+            <p>20% de descuento</p>
+          </div>
+          <div class="center">
+            <div class="modal-content">
+              <h5 class="promo-title">EN LA CARGA DE GAS DE AIRES ACONDICIONADOS</h5>
+              <p>CONTRATANDO NUESTRO SERVICIO POR MERCADO LIBRE</p>
+              <p class="promo-aclara">* El costo final queda sujeto al modelo del equipo</p>
+              <p class="promo-muted"></p>
+              <p>Promoción válida en CABA</p>
+            </div>
+            <div class="modal-footer">
+              <a href="https://listado.mercadolibre.com.ar/gasista-matriculado-1ra-categoria-certificante-de-calderas_NoIndex_True" target="_blank" class="btn btn-large modal-promo-btn">Comprar</a>
+            </div>
+          </div>
+        </div> -->
+        
+
+        <!-- FIRST OLD -->
+        <!-- <div id="modal1" class="modal">
           <div class="promo-container container center">
             <div class="promo-porc center">
               <p>50% de descuento</p>
@@ -355,9 +614,9 @@
             <p>Promoción válida en CABA</p>
             <a href="https://listado.mercadolibre.com.ar/gasista-matriculado-1ra-categoria-certificante-de-calderas_NoIndex_True" target="_blank" class="btn btn-large promo-btn">Comprar</a>
           </div>
-        </div>
+        </div> -->
     
-        <div id="modal2" class="modal">
+        <!-- <div id="modal2" class="modal">
           <div class="promo-porc center">
             <p>100% BONIFICADO</p>
           </div>
@@ -368,9 +627,9 @@
             <p>Promoción válida en CABA</p>
             <a href="https://www.instagram.com/instalagas_construcciones/" target="_blank" class="btn btn-large promo-btn">Ir a Instagram</a>
           </div>
-        </div>
+        </div> -->
     
-        <div id="modal3" class="modal">
+        <!-- <div id="modal3" class="modal">
           <div class="promo-porc center">
             <p>100% BONIFICADO</p>
           </div>
@@ -382,9 +641,9 @@
             <p>Promoción válida en CABA</p>
             <a href="https://www.instagram.com/instalagas_construcciones/" target="_blank" class="btn btn-large promo-btn">Ir a Instagram</a>
           </div>
-        </div>
+        </div> -->
     
-        <div id="modal4" class="modal">
+        <!-- <div id="modal4" class="modal">
           <div class="promo-porc center">
             <p>20% de descuento</p>
           </div>
@@ -396,7 +655,8 @@
             <p>Promoción válida en CABA</p>
             <a href="https://listado.mercadolibre.com.ar/gasista-matriculado-1ra-categoria-certificante-de-calderas_NoIndex_True" target="_blank" class="btn btn-large promo-btn">Comprar</a>
           </div>
-        </div>
+        </div> -->
+
     </section>
 
 
@@ -451,7 +711,22 @@
                   <label for="telefono">Teléfono</label>
                 </div>
 
-                <div class="input-field col s12 mb-0">
+                <div class="input-field col s12 offset-m3 m6">
+                  <select>
+                    <option value="" disabled selected>Asunto</option>
+                    <option value="Instalación de gas">Instalación de gas</option>
+                    <option value="Certificación de calderas y termotanques">Certificación de calderas y termotanques</option>
+                    <option value="Plomería e Instalaciones sanitarias">Plomería e Instalaciones sanitarias</option>
+                    <option value="Trabajos en altura">Trabajos en altura</option>
+                    <option value="Electricidad">Electricidad</option>
+                    <option value="Climatización">Climatización</option>
+                    <option value="Remodelación">Remodelación</option>
+                    <option value="Energías renovables">Energías renovables</option>
+                    <option value="Otros">Otros</option>
+                  </select>
+                </div>
+
+                <div class="input-field col s12 mb-0 mensaje">
                   <textarea id="mensaje" class="materialize-textarea"></textarea>
                   <label for="mensaje">Dejanos tu consulta</label>
                 </div>
@@ -460,7 +735,7 @@
                 <div class="g-recaptcha" data-sitekey="6LfJnMoUAAAAAC1Yr2SL64OvTKmr1AHXH0TEiItA"></div>
               </div>
               <div class="row s12 center">
-                <a href="" id="" class="btn btn-large btn-outlined inverse btn-block">ENVIAR</a>
+                <a href="" id="" class="btn btn-large btn-outlined secondary-btn btn-block">ENVIAR</a>
               </div>
             </div>
     
@@ -471,7 +746,8 @@
                 <p><i class="fas fa-map-marker-alt"></i>Ciudad Autónoma de Buenos Aires, Argentina</p>
                 <p><i class="fas fa-mobile-alt"></i><a href="https://wa.me/5491166893766?text=Hola!%20Me%20gustaría%20solicitar%20un%20presupuesto">+54 9 11 6689 3766</a></p>
                 <div class="row s12">
-                  <a href="" id=""class="btn btn-large btn-outlined inverse"><i class="fab fa-whatsapp btn-whatsapp-contact"></i>Escribinos por Whatsapp</a>
+                  <!-- <a href="" id=""class="btn btn-large btn-outlined whatsapp-btn"><i class="fab fa-whatsapp btn-whatsapp-contact"></i>Escribinos por Whatsapp</a> -->
+                  <a class="btn btn-large waves-effect waves-light whatsapp-btn"><i class="fab fa-whatsapp btn-whatsapp-contact"></i>Escribinos</a>
                 </div>
               </div>
             </div>
@@ -484,7 +760,7 @@
 
     <footer class="page-footer">
       <div class="container">
-        <div class="row">
+        <div class="row mb-0">
           <div class="col s12 l4 center">
             <p><i class="fas fa-envelope"></i>&nbsp;&nbsp;info@instalagas.com.ar</p>
             <p><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Ciudad Autónoma de Buenos Aires, Argentina</p>
@@ -499,16 +775,16 @@
             </ul>
           </div>
           <div class="col s12 l4 center">
-            <div class="row">
+            <div class="row mb-0">
               <img src="images/nav-logo.png" alt="">
             </div>
             <div class="row">
               <a href="" class="social"><i class="fab fa-facebook-f"></i></a>
               <a href="" class="social"><i class="fab fa-instagram"></i></a>
-              <a href="" class="social"><i class="fab fa-google"></i></a>
               <a href="" class="social"><i class="fab fa-youtube"></i></a>
               <a href="" class="social"><i class="fa fa-envelope"></i></a>
               <a href="" class="social"><i class="fas fa-store"></i></a>
+              <a href="" class="social ml ml-footer"><img src="images/ml-logo.png" alt=""></a>
             </div>
           </div>
         </div>
