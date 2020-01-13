@@ -6,8 +6,8 @@ $(document).ready(function(){
       fullWidth: true,
       indicators: true
     });
-    $('.collapsible').collapsible();
-    $('.collapsible').collapsible({  
+    $('.collapsible.expandable').collapsible();
+    $('.collapsible.expandable').collapsible({  
       onOpenEnd: function() {  
         $('.carousel.carousel-slider').carousel({
           fullWidth: true,
@@ -16,10 +16,10 @@ $(document).ready(function(){
       }
     })
 
-    var elem = document.querySelector('.collapsible.expandable');
-var instance = M.Collapsible.init(elem, {
-  accordion: false
-});
+//     var elem = document.querySelector('.collapsible.expandable');
+// var instance = M.Collapsible.init(elem, {
+//   accordion: false
+// });
     
     $('select').formSelect();
     setInterval(function() {
