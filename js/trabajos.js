@@ -1,5 +1,5 @@
 $(document).ready(function(){
     $('.materialboxed').materialbox();
     $('.sidenav').sidenav();
-    $('.sidenav').sidenav();
+    $(".dropdown-trigger").dropdown();
 });
