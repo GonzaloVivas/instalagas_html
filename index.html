@@ -22,7 +22,6 @@
 <body>
 
   <div class="hide" id="nav-container">
-    
     <div class="navbar-fixed">
       <nav class="colorBG" id="nav">
           <div class="nav-wrapper">
@@ -110,7 +109,6 @@
       <li><a href="#">Galería de Trabajos</a></li>
       <li><a href="#">Contacto</a></li>
   </ul>
-
   </div>
 
   <main>
@@ -224,17 +222,33 @@
         </div>
       </div>
       <div class="row text-20">
-        <div class="col s12 m6">
+        <div class="col s12 l6">
           <p>Con más de 30 años de actividad, somos una empresa que nació especializada en instalaciones de gas y certificaciones de calderas y termotanques. Con el transcurso del tiempo hemos ampliado nuestros servicios y equipo, contando hoy con amplia trayectoria y experiencia en mantenimiento y remodelación de inmuebles en general tanto en el ámbito de lo residencial, como en lo comercial y lo industrial.</p>
           <p>El profesionalismo, compromiso y seriedad son parte fundamental de nuestra marca, personalizando cada trabajo según las necesidades del cliente.</p>
         </div>
-        <div class="col s12 m6">
+        <div class="col s12 l6">
           <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/HUpH-O6wE0s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
+            <!-- <iframe src="https://www.youtube.com/embed/HUpH-O6wE0s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe> -->
+            <div class="video-slider">
+              
+              <div class="yt-slide">
+                <iframe class="video" src="https://www.youtube.com/embed/HUpH-O6wE0s?ecver=2&enablejsapi=1"></iframe>
+              </div>
+              
+              <div class="yt-slide">
+                <iframe class="video" src="https://www.youtube.com/embed/YE7VzlLtp-4?ecver=2&enablejsapi=1"></iframe>
+              </div>
+              
+              <div class="slide-arrow left"></div>
+              <div class="slide-arrow right"></div>
+            </div>
           </div>
         </div>
       </div>
     </section>
+
+
+    
     
     <!-- <hr> -->
 
@@ -295,7 +309,7 @@
   <section class="container">.
 
     <h3 class="ul-title">Nuestros Servicios</h3>   
-
+    
     <div class="row">
       <div class="col s12 m6 servicio-container-2">
         <figure><img src="images/serv-inst-gas.jpg" alt=""></figure>
@@ -779,12 +793,14 @@
               <img src="images/nav-logo.png" alt="">
             </div>
             <div class="row">
+              <div class="social-icons">
               <a href="" class="social"><i class="fab fa-facebook-f"></i></a>
               <a href="" class="social"><i class="fab fa-instagram"></i></a>
               <a href="" class="social"><i class="fab fa-youtube"></i></a>
               <a href="" class="social"><i class="fa fa-envelope"></i></a>
               <a href="" class="social"><i class="fas fa-store"></i></a>
               <a href="" class="social ml ml-footer"><img src="images/ml-logo.png" alt=""></a>
+              </div>
             </div>
           </div>
         </div>
@@ -804,6 +820,7 @@
   <script src="js/materialize.min.js"></script>
   <script src="js/index.js"></script>
   <script src="js/slick.js"></script>
+  <script src="https://www.youtube.com/iframe_api"></script>
   
   </body>
 </html>

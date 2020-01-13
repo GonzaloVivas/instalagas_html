@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>INSTALAGAS</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <meta name="description" content="" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!-- <link href="css/fa-brands.css" type="text/css" rel="stylesheet"/> -->
+  <link href="css/all.min.css" type="text/css" rel="stylesheet"/>
+  <link rel="icon" href="favicon-16.png" sizes="16x16">
+  <link rel="icon" href="favicon-32.png" sizes="32x32">
+  <link rel="icon" href="favicon-48.png" sizes="48x48">
+  <link rel="icon" href="favicon-64.png" sizes="64x64">
+  <link rel="icon" href="favicon-128.png" sizes="128x128">
+  <meta name="theme-color" content="#f48125">
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <div>
+        <?php require 'header.php'; ?>
+        <div class="navbar-fixed">
+          <nav class="colorBG" id="nav">
+              <div class="nav-wrapper">
+              <a href="../" class="brand-logo"><img src="images/logo.png" alt="Logo de Instalagas" class="logo-nav"></a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger right black-text"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                  <li><a href="../">Inicio</a></li>
+                  <!-- <li><a href="#">Quiénes Somos</a></li> -->
+                  <li><a class="dropdown-trigger" href="#!" data-target="dropdown-inst-gas-w">Instalaciones de Gas<i class="material-icons right">arrow_drop_down</i></a></li>
+                  <ul id="dropdown-inst-gas-w" class="dropdown-content">
+                      <li><a href="#!">Comerciales / Industriales</a></li>
+                      <li><a href="#!">Domésticas / Consorcios</a></li>
+                      <li><a href="#!">Instalaciones de Combustión</a></li>
+                      <li><a href="#!">Reparación y Servicio Técnico</a></li>
+                  </ul>
+                  <li><a class="dropdown-trigger" href="#!" data-target="dropdown-cert-w">Certificaciones<i class="material-icons right">arrow_drop_down</i></a></li>
+                  <ul id="dropdown-cert-w" class="dropdown-content">
+                      <li><a href="#!">Calderas</a></li>
+                      <li><a href="#!">Termotanques</a></li>
+                  </ul>
+                  <li><a class="dropdown-trigger" href="#!" data-target="dropdown-otros-w">Otros Servicios<i class="material-icons right">arrow_drop_down</i></a></li>
+                  <ul id="dropdown-otros-w" class="dropdown-content">
+                      <li><a href="#!">Instalaciones Sanitarias y Plomería</a></li>
+                      <li><a href="#!">Trabajos en Altura</a></li>
+                      <li><a href="#!">Electricidad</a></li>
+                      <li><a href="#!">Remodelaciones</a></li>
+                      <li><a href="#!">Aire Acondicionado y Calefacción</a></li>
+                      <li><a href="#!">Energías Renovables</a></li>
+                  </ul>
+                  <li><a href="#">Galería de Trabajos</a></li>
+                  <li><a href="#">Contacto</a></li>
+                  <div class="header-nav-social">
+                      <li><a target="_blank" href="" class="nav-social-link first"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a target="_blank" href="" class="nav-social-link"><i class="fab fa-instagram"></i></a></li>
+                      <li><a target="_blank" href="" class="nav-social-link-transp ml"><img src="images/ml-logo.png" alt=""></a></li>
+                  </div>
+              </ul>
+              </div>
+          </nav>
+      </div>
+      
+      <ul class="sidenav" id="mobile-demo">
+          <div class="sidenav-social">
+              <a target="_blank" href="" class=""><i class="fab fa-facebook-f"></i></a>
+              <a target="_blank" href="" class=""><i class="fab fa-instagram"></i></a>
+              <a target="_blank" href="" class="sidenav-social-link ml"><img src="images/ml-logo.png" alt=""></a>
+          </div>
+          <li><a href="../">Inicio</a></li>
+          <!-- <li><a href="#">Quiénes Somos</a></li> -->
+          <ul class="collapsible">
+              <li>
+                  <div class="collapsible-header drop-nav-mob">Instalaciones de Gas<i class="material-icons right">arrow_drop_down</i></div>
+                  <div class="collapsible-body">
+                      <ul>
+                          <li><a href="#!" class="drop-nav-mob-items">Comerciales / Industriales</a></li>
+                          <li><a href="#!" class="drop-nav-mob-items">Domésticas / Consorcios</a></li>
+                          <li><a href="#!" class="drop-nav-mob-items">Instalaciones de Combustión</a></li>
+                          <li><a href="#!" class="drop-nav-mob-items">Reparación y Servicio Técnico</a></li>
+                      </ul>
+                  </div>
+              </li>
+              <li>
+                  <div class="collapsible-header drop-nav-mob">Certificaciones<i class="material-icons right">arrow_drop_down</i></div>
+                  <div class="collapsible-body">
+                      <ul>
+                          <li><a href="#!" class="drop-nav-mob-items">Calderas</a></li>
+                          <li><a href="#!" class="drop-nav-mob-items">Termotanques</a></li>
+                      </ul>
+                  </div>
+              </li>
+              <li>
+                  <div class="collapsible-header drop-nav-mob">Otros Servicios<i class="material-icons right">arrow_drop_down</i></div>
+                  <div class="collapsible-body">
+                      <ul>
+                          <li><a href="#!" class="drop-nav-mob-items">Instalaciones Sanitarias y Plomería</a></li>
+                          <li><a href="#!" class="drop-nav-mob-items">Trabajos en Altura</a></li>
+                          <li><a href="#!" class="drop-nav-mob-items">Electricidad</a></li>
+                          <li><a href="#!" class="drop-nav-mob-items">Remodelaciones</a></li>
+                          <li><a href="#!" class="drop-nav-mob-items">Aire Acondicionado y Calefacción</a></li>
+                          <li><a href="#!" class="drop-nav-mob-items">Energías Renovables</a></li>
+                      </ul>
+                  </div>
+              </li>
+          </ul>
+          <li><a href="#">Galería de Trabajos</a></li>
+          <li><a href="#">Contacto</a></li>
+      </ul>
+    </div>
+
+    <main>
+
+    <div class="hero-secc hero-inst-gas">
+        <h3>Certificaciones</h3>
+    </div>
+    <section class="container serv-desc">
+        <p>De acuerdo a lo establecido por la Ordenanza Municipal Nº 33.677 <span class="bold">todos los consorcios de propietarios, industrias y edificios gubernamentales, en el ámbito de la Ciudad Autónoma de Buenos Aires</span>, que cuenten con artefactos destinados a producir vapor o agua caliente, ya sea con un fin industrial, de servicio o confort, <span class="bold">están obligados a contar con un seguro de responsabilidad civil.</span> Una vez que la instalación se encuentra habilitada, la misma deberá ser certificada. Para ello contamos con personal de probada experiencia y habilitado para tal fin..</p>
+        <p>El trabajo consta en: tramitar la documentación pertinente (detalle de la instalación con el profesional responsable interviniente, autorización del respectivo consejo profesional y detalle de los números de expediente de habilitación de los artefactos consignados), y comenzar a inspeccionar en forma mensual / trimestral la instalación térmica, validando en cada inspección la planilla obligatoria que debe exhibirse en la sala..</p>
+    </section>
+
+    <div class="container">
+      <ul class="collapsible expandable">
+        <li>
+          <div class="collapsible-header">Calderas&nbsp;<i class="material-icons right expand">expand_more</i></div>
+          <div class="collapsible-body">
+            <div class="serv-desc-gallery center">
+              <div class="carousel carousel-slider">
+                <a class="carousel-item" href="#one!"><img src="images/servicios/serv1.jpg"></a>
+                <a class="carousel-item" href="#two!"><img src="images/servicios/serv2.jpg"></a>
+                <a class="carousel-item" href="#three!"><img src="images/servicios/serv3.jpg"></a>
+                <a class="carousel-item" href="#four!"><img src="images/servicios/serv4.jpg"></a>
+              </div>
+            </div>
+            <div class="serv-desc-text text-20">
+                <p>De acuerdo a lo establecido por la Ordenanza Municipal N°33677  Decreto 887/79 de C.A.B.A.:</p>
+
+                <p>Supervisión técnica de la Instalación Térmica en forma mensual, de acuerdo a las siguientes consideraciones:</p>
+                
+                <p>- Comprobación del funcionamiento del dispositivo de corte de combustible por bajo nivel de agua</p>
+                <p>- Verificación del funcionamiento del sistema de carga de agua a la Caldera</p>
+                <p>- Verificación del funcionamiento del dispositivo de corte de combustible por falta de llama y/o ignición</p>
+                <p>- Verificación del funcionamiento de las válvulas de seguridad</p>
+                <p>- Inspección del estado de las superficies de calentamiento</p>
+                <p>- Verificación del funcionamiento de los dispositivos límites y operativos</p>
+                <p>- Inspección del sistema de suministro de combustible y quemador</p>
+                <p>- Pruebas de la eficiencia de la combustión y tiraje</p>
+                <p>- Inspección de las entradas de aire a la Sala de Caldera</p>
+
+                <h5>Calefacción central</h5>
+
+                <p>Realizamos las reparaciones, mantenimiento, instalaciones y las automatizaciones de los sistemas de calefacción central con personal propio especializado con más de 30 años de experiencia, con todos los seguros reglamentarios, Trabajamos en consorcios, clubes, hoteles, industrias, clínicas.</p>
+
+                
+
+                <h5>Instalación de calderas centrales</h5>
+
+                <p>Instalamos sistemas de calefacción tanto piso radiante, radiadores como losa radiante. Montaje con personal propio.</p>
+
+                
+
+                <h5>Mantenimiento de Calderas Centrales</h5>
+
+                <p>Realizamos el mantenimiento de calefacción central de edificios en todo lo que se refiere a la parte de calderas, quemadores, automatizaciones.</p>
+                <p>También realizamos el mantenimiento de calefacción central correspondiente a limpieza de calderas y las rutinas de control de temporada.</p>
+
+                
+
+                <h5>Reparación de calderas centrales</h5>
+
+                <p>Realizamos la reparación de calefacción central de edificios en todo lo que se refiere a la parte de calderas, quemadores, automatizaciones, cambio de cañerías de losa radiante, cañerías de radiadores.</p>
+
+                
+
+                <h5>Automatización</h5>
+
+                <p>Cumplimos con las necesidades de automatización de calefacción central para que los sistemas se enciendan y apaguen conforme a horarios programados y a temperaturas predeterminadas para lograr la automatización de la calefacción central de los edificios.
+
+              
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header">Termotanques&nbsp;<i class="material-icons right expand">expand_more</i></div>
+          <div class="collapsible-body">
+            <div class="serv-desc-gallery">
+              <div class="carousel carousel-slider">
+                <a class="carousel-item" href="#one!"><img src="images/servicios/serv1.jpg"></a>
+                <a class="carousel-item" href="#two!"><img src="images/servicios/serv2.jpg"></a>
+                <a class="carousel-item" href="#three!"><img src="images/servicios/serv3.jpg"></a>
+                <a class="carousel-item" href="#four!"><img src="images/servicios/serv4.jpg"></a>
+              </div>
+            </div>
+            <div class="serv-desc-text text-20">
+                <p>Realizamos la reparación de termotanques centrales de edificios en todo lo que se refiere a pérdidas o pinchaduras (cuerpo , envolvente, tubos, hogar), reparación de quemadores  y su instalación eléctrica, automatizaciones, aislaciones térmicas.</p>
+                <p>Mantenimiento de Termotanques centrales</p>
+                <p>Realizamos preventivamente el mantenimiento de termotanques centrales de edificios en todo lo que se refiere a limpieza periódica, cambio de ánodos, limpieza y service de quemadores, automatizaciones y las rutinas de control de temporada.</p>
+                <p>El mantenimiento de los termotanques centrales mejora el rendimiento del sistema  de agua caliente central con importantes ahorros de gas, cambio de ánodos de termotanques de magnesio.</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- <section class="container serv-list">
+        <div class="row">
+            <div class="col s12 m6 l3">
+                <a href="">
+                    <div class="card serv-card hoverable">
+                        <div class="card-image">
+                        <img src="images/gas.jpg">
+                        </div>
+                        <div class="card-content">
+                            <p class="serv-card-text">Comerciales / Industriales</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col s12 m6 l3">
+                <a href="">
+                    <div class="card serv-card hoverable">
+                        <div class="card-image">
+                        <img src="images/gas.jpg">
+                        </div>
+                        <div class="card-content">
+                            <p class="serv-card-text">Domésticas / Consorcios</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col s12 m6 l3">
+                <a href="">
+                    <div class="card serv-card hoverable">
+                        <div class="card-image">
+                        <img src="images/gas.jpg">
+                        </div>
+                        <div class="card-content">
+                            <p class="serv-card-text">Instalaciones de Combustión</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col s12 m6 l3">
+                <a href="">
+                    <div class="card serv-card hoverable">
+                        <div class="card-image">
+                        <img src="images/gas.jpg">
+                        </div>
+                        <div class="card-content">
+                            <p class="serv-card-text">Reparación y Servicio Técnico</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </section> -->
+
+    <section class="contacto inverse">
+      <div class="container">
+        <h3 class="ul-title">Contactanos</h3>
+
+        <div class="row">
+          <div class="contact">
+            <div class="col s12">
+              <div class="row">
+                <div class="input-field col s12 l6">
+                  <input id="nombre" type="text">
+                  <label for="nombre">Nombre</label>
+                </div>
+                <div class="input-field col s12 l6">
+                  <input id="apellido" type="text">
+                  <label for="apellido">Apellido</label>
+                </div>
+
+                <div class="input-field col s12 l6">
+                  <input id="mail" type="email">
+                  <label for="mail">Email</label>
+                </div>
+                <div class="input-field col s12 l6">
+                  <input id="telefono" type="text">
+                  <label for="telefono">Teléfono</label>
+                </div>
+
+                <div class="input-field col s12">
+                  <select>
+                    <option value="" disabled selected>Asunto</option>
+                    <option value="Instalación de gas">Instalación de gas</option>
+                    <option value="Certificación de calderas y termotanques">Certificación de calderas y termotanques</option>
+                    <option value="Plomería e Instalaciones sanitarias">Plomería e Instalaciones sanitarias</option>
+                    <option value="Trabajos en altura">Trabajos en altura</option>
+                    <option value="Electricidad">Electricidad</option>
+                    <option value="Climatización">Climatización</option>
+                    <option value="Remodelación">Remodelación</option>
+                    <option value="Energías renovables">Energías renovables</option>
+                    <option value="Otros">Otros</option>
+                  </select>
+                </div>
+
+                <div class="input-field col s12 mb-0 mensaje">
+                  <textarea id="mensaje" class="materialize-textarea"></textarea>
+                  <label for="mensaje">Dejanos tu consulta</label>
+                </div>
+              </div>
+              <div class="row s12 center">
+                <div class="g-recaptcha" data-sitekey="6LfJnMoUAAAAAC1Yr2SL64OvTKmr1AHXH0TEiItA"></div>
+              </div>
+              <div class="row s12 center">
+                <a href="" id="" class="btn btn-large btn-outlined secondary-btn btn-block">ENVIAR</a>
+              </div>
+            </div>
+    
+            <div class="col s12">
+
+              <div class="contact-text">
+                <p><i class="fas fa-envelope"></i><a href="mailto:info@instalagas.com.ar">info@instalagas.com.ar</a></p>
+                <p><i class="fas fa-map-marker-alt"></i>Ciudad Autónoma de Buenos Aires, Argentina</p>
+                <p><i class="fas fa-mobile-alt"></i><a href="https://wa.me/5491166893766?text=Hola!%20Me%20gustaría%20solicitar%20un%20presupuesto">+54 9 11 6689 3766</a></p>
+                <div class="row s12">
+                  <a class="btn btn-large waves-effect waves-light whatsapp-btn"><i class="fab fa-whatsapp btn-whatsapp-contact"></i>Escribinos</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row mb-0">
+          <div class="col s12 l4 center">
+            <p><i class="fas fa-envelope"></i>&nbsp;&nbsp;info@instalagas.com.ar</p>
+            <p><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Ciudad Autónoma de Buenos Aires, Argentina</p>
+            <p><i class="fab fa-whatsapp"></i>&nbsp;&nbsp;+54 9 11 6689 3766</p>
+          </div>
+          <div class="col s12 l4 center">
+            <ul class="footer-links">
+              <li><a href="#!">Promociones</a></li>
+              <li><a href="#!">Instalaciones de Gas</a></li>
+              <li><a href="#!">Certificaciones</a></li>
+              <li><a href="#!">Energías Renovables</a></li>
+            </ul>
+          </div>
+          <div class="col s12 l4 center">
+            <div class="row mb-0">
+              <img src="images/nav-logo.png" alt="">
+            </div>
+            <div class="row">
+              <a href="" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="" class="social"><i class="fab fa-instagram"></i></a>
+              <a href="" class="social"><i class="fab fa-youtube"></i></a>
+              <a href="" class="social"><i class="fa fa-envelope"></i></a>
+              <a href="" class="social"><i class="fas fa-store"></i></a>
+              <a href="" class="social ml ml-footer"><img src="images/ml-logo.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright grey darken-4">
+        <div class="container">© 2020 | Instalagas</div>
+      </div>
+    </footer>
+
+  </main>
+
+  <div class="content">
+    <?php require 'footer.php'; ?>
+  </div>
+  
+  <script src="js/jquery.min.js"></script>
+  <script src="js/materialize.min.js"></script>
+  <script src="js/servicios.js"></script>
+  
+  </body>
+</html>
