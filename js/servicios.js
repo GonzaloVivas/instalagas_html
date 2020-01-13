@@ -6,9 +6,16 @@ $(document).ready(function(){
       fullWidth: true,
       indicators: true
     });
-    $('.collapsible.expandable').collapsible();
+    var elem = document.querySelector('.collapsible.expandable');
+    var instance = M.Collapsible.init(elem, {
+      accordion: false
+    });
     $('.collapsible.expandable').collapsible({  
-      onOpenEnd: function() {  
+      onOpenEnd: function() { 
+        var elem = document.querySelector('.collapsible.expandable');
+        var instance = M.Collapsible.init(elem, {
+          accordion: false
+        });
         $('.carousel.carousel-slider').carousel({
           fullWidth: true,
           indicators: true
